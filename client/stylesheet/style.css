@@ -1,0 +1,25 @@
+.specialButton {
+	cursor: pointer;
+	padding: 10px;
+	font-family: Arial;
+	font-size: 12px;
+	display: inline-block;
+	border: solid 1px #d1c4e9;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #ede7f6;
+}
+
+.specialButton:hover{
+	text-decoration: underline;
+}
+
+.specialButton.selected{
+	background-color: #b39ddb;
+}
+
+.timeContainer select{
+	margin-top: 10px;
+	margin-left: 74px;
+}
